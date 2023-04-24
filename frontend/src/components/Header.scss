@@ -1,0 +1,31 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 60px;
+
+	ul {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		li {
+			margin-left: 20px;
+
+			a {
+				display: flex;
+				align-items: center;
+
+				&:hover {
+					color: #777;
+				}
+
+				svg {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}
